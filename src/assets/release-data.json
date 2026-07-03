@@ -1,0 +1,23 @@
+[
+    {
+        "id": "0",
+        "title": "Not Into You",
+        "date": "2026",
+        "mediapath": "albums/not-into-you.jpeg",
+        "url": "https://tr.ee/wNC3cfjNQx"
+    },
+    {
+        "id": "1",
+        "title": "Part of Something",
+        "date": "2025",
+        "mediapath": "albums/part-of-something.jpg",
+        "url": "https://tr.ee/HqYjODjrKp"
+    },
+    {
+        "id": "3",
+        "title": "New Song",
+        "date": "20222",
+        "mediapath": "albums/new.png",
+        "url": "www.google.com"
+    }
+]

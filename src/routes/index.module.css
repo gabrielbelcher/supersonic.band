@@ -1,0 +1,100 @@
+.main{
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width:100%;
+    height:auto;
+    gap:50px;
+}
+
+.hero{
+    margin-top:7vh;
+    margin-bottom:5vh;
+    display:flex;
+    height:55vh;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    padding:35px;
+}
+
+.video video{
+    width:100vw;
+    height:100%;
+    object-fit: cover;
+    overflow:clip;
+    opacity: 0;
+}
+
+.releases{
+    min-height: 0;
+    height:400px;
+    width:100%;
+    overflow: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+
+.showsWrapper{
+
+    margin-top:50px;
+    width:100%;
+    height:auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .video{
+        display:none;
+    }
+
+    .releases{
+        display:none;
+    }
+
+    .main{
+        gap:0px;
+    }
+}
+
+
+
+.loaded{
+    animation: fadeIn 1s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+    /*Give target object 0 opacity as default*/
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes logoFade {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.85;
+    }
+}

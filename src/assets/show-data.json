@@ -1,0 +1,38 @@
+[
+    {
+        "active": true,
+        "venue": "Acho's",
+        "address": "309 Karangahape Road",
+        "day": "19",
+        "month": "JUN",
+        "time": "8:00pm",
+        "url": "https://tr.ee/wNC3cfjNQx"
+    },
+    {
+        "active": true,
+        "venue": "Whammy Bar",
+        "address": "183 Karangahape Road",
+        "day": "30",
+        "month": "JUL",
+        "time": "8:30pm",
+        "url": "https://tr.ee/wNC3cfjNQx"
+    },
+    {
+        "active": false,
+        "venue": "Public Bar",
+        "address": "183 Karangahape Road",
+        "day": "25",
+        "month": "AUG",
+        "time": "7:45pm",
+        "url": "https://tr.ee/wNC3cfjNQx"
+    },
+    {
+        "active": false,
+        "venue": "Tuning Fork",
+        "address": "Near spark arena idk",
+        "day": "24",
+        "month": "OCT",
+        "time": "7:30pm",
+        "url": "https://tr.ee/wNC3cfjNQx"
+    }
+]

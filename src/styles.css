@@ -1,0 +1,67 @@
+@font-face {
+  font-family: open-sans; 
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: roboto; 
+  src: url(./assets/fonts/RobotoMono-Regular.ttf); 
+}
+
+@font-face {
+  font-family: roboto-bold; 
+  src: url(./assets/fonts/RobotoMono-SemiBold.ttf);
+}
+
+:root {
+  font-family: roboto, open-sans, Arial, sans-serif;
+  line-height: 1.5;
+
+
+  --text-color: #eeeeee;
+  --alt-text-color: #202020;
+  --background-color: #202020;
+  --alt-background-color:#eeeeee;
+  --accent-color:#eb6060;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* , *:before, *:after{ 
+  box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  -webkit-box-sizing:border-box; 
+  -ms-box-sizing:border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+html{
+  height:100vh;
+  width:100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+  background-color: var(--background-color);
+  background-image: url(assets/Noise.gif);
+  background-blend-mode: multiply;
+}
+
+
+
+/* This is the element between body and the application */
+#app{ 
+
+  color: var(--text-color);
+  height:100%;
+  width:100%;
+}

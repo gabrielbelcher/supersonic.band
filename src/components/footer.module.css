@@ -1,0 +1,17 @@
+.footerWrapper{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footerWrapper a{
+    line-height: 0;
+}
+
+.signature{
+    height:6vh;
+    filter:invert(0.3);
+}
