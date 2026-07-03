@@ -9,7 +9,7 @@ interface Params{
 
 function ReleaseLatest({song}: {song: ReleaseType}){
 
-    const art = 'src/assets/' + song.mediapath
+    const art = './src/assets/' + song.mediapath
 
     return (
         <div className={styles.releaseWrapper}>
@@ -24,7 +24,7 @@ function ReleaseLatest({song}: {song: ReleaseType}){
 
 function ReleaseAll({song}: {song: ReleaseType}){
 
-    const art = 'src/assets/' + song.mediapath
+    const art = './src/assets/' + song.mediapath
 
     return (
         <div className={styles.releaseWrapper}>
