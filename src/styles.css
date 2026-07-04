@@ -51,11 +51,20 @@ html{
   overflow-y: auto;
   overflow-x: hidden;
   
-  background-color: var(--background-color);
-  background-image: url(assets/Noise.gif);
-  background-blend-mode: multiply;
+  background: var(--background-color);
+
 }
 
+@media (min-width: 1024px) {
+  html {
+      background-image: url(assets/Noise.gif);
+      background-blend-mode: multiply;
+  }
+}
+
+a:link{
+  color: var(--text-color);
+}
 
 
 /* This is the element between body and the application */

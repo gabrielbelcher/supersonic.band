@@ -24,7 +24,7 @@ function HomeComponent() {
         <video 
           className={`${videoLoaded && styles.loaded}`}
           src={video} 
-          autoPlay loop muted
+          playsInline autoPlay loop muted 
           onLoadedData={() => {
             setVideoLoaded(true);
           }}
