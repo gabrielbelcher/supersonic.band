@@ -22,12 +22,20 @@
 }
 
 .video video{
-    width:100vw;
+    width:100%;
     height:100%;
     object-fit: cover;
     overflow:clip;
     opacity: 0;
     pointer-events: none;
+
+}
+
+.video{
+    width:100vw;
+    display:flex;
+    flex: 0 0 auto;
+
 }
 
 .releases{
@@ -56,8 +64,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .video video{
+        height:100%;
+        
+    }
+
     .video{
-        display:none;
+        height:45vh;
     }
 
     .releases{

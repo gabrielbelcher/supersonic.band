@@ -17,6 +17,8 @@
     z-index: 2;
 }
 
+
+
 a{
     font-size:1.5rem;
     text-decoration: none;
@@ -51,9 +53,13 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    .headerRight{
-        visibility:hidden;
+    .headerLeft{
+        display:none;
 
+    }
+    .headerWrapper{
+        padding-left:40px;
+        padding-right:40px;
     }
 }
 
