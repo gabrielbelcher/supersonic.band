@@ -9,7 +9,6 @@ const router = createRouter({
   routeTree,
   defaultPreload: 'render',
   scrollRestoration: false,
-  basepath: '/supersonic.band/',
 })
 
 // Register things for typesafety
