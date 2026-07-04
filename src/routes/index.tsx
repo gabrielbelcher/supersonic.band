@@ -3,8 +3,8 @@ import Release from '../components/release'
 import Shows from '../components/shows'
 
 import { useState } from 'react'
-import video from '../../src/assets/hero.mov'
 import styles from './index.module.css'
+import video from '/media/video/hero.mov'
 
 
 export const Route = createFileRoute('/')({
