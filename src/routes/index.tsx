@@ -4,8 +4,7 @@ import Shows from '../components/shows'
 
 import { useState } from 'react'
 import styles from './index.module.css'
-import video from '/media/video/hero.mov'
-
+import video from '/media/video/hero.mp4'
 
 export const Route = createFileRoute('/')({
   component: HomeComponent,

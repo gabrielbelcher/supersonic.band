@@ -7,7 +7,7 @@ interface Params{
 }
 
 
-function ReleaseLatest({song}: {song: ReleaseType}){
+function ReleasePrint({song}: {song: ReleaseType}){
 
     const art = '/media/images/' + song.mediapath
 
@@ -18,17 +18,6 @@ function ReleaseLatest({song}: {song: ReleaseType}){
             <a href={song.url} target="_blank">
                 <p>STREAM NOW</p>
             </a>
-        </div>
-    )
-}
-
-function ReleaseAll({song}: {song: ReleaseType}){
-
-    const art = '/media/images/' + song.mediapath
-
-    return (
-        <div className={styles.releaseWrapper}>
-            <img src={art} />
         </div>
     )
 }
@@ -44,7 +33,7 @@ export default function Release({mode} : Params) {
         return (
             <>
                 {songs.map((song, index) => (
-                    <ReleaseLatest song={song} key={index}/>
+                    <ReleasePrint song={song} key={index}/>
                 ))}
             </>
         )
@@ -55,7 +44,7 @@ export default function Release({mode} : Params) {
         return (
             <>
                 {songs.map((song, index) => (
-                    <ReleaseAll song={song} key={index}/>
+                    <ReleasePrint song={song} key={index}/>
                 ))}
             </>
         )

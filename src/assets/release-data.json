@@ -3,21 +3,14 @@
         "id": "0",
         "title": "Not Into You",
         "date": "2026",
-        "mediapath": "not-into-you.jpeg",
+        "mediapath": "not-into-you.jpg",
         "url": "https://tr.ee/wNC3cfjNQx"
     },
     {
         "id": "1",
         "title": "Part of Something",
         "date": "2025",
-        "mediapath": "part-of-something.JPG",
+        "mediapath": "part-of-something.jpg",
         "url": "https://tr.ee/HqYjODjrKp"
-    },
-    {
-        "id": "3",
-        "title": "New Song",
-        "date": "20222",
-        "mediapath": "new.png",
-        "url": "www.google.com"
     }
 ]

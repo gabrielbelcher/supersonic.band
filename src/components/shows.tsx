@@ -8,7 +8,9 @@ export default function Shows() {
 
     return (
         <div className={styles.shows}>
-            {shows.map((show, index) => (
+            {shows.length == 0 && <p>Check back for show information and tickets!</p>}
+
+            {shows && shows.map((show, index) => (
                 <div className={styles.showWrapper} key={index}>
 
                     <div className={styles.showLeft}>
