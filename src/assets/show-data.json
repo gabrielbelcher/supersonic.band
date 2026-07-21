@@ -1,3 +1,11 @@
 [
-
+    {
+        "active": true,
+        "venue": "Āiotanga Community Space",
+        "address": "22 Emily Place, Auckland, 1010",
+        "day": "1",
+        "month": "AUG",
+        "time": "7:30pm",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScL5PC5b58wQGiH189hYo2TqBjhSmAORwkKfvmOfNA9J6iSig/viewform"
+    }
 ]
