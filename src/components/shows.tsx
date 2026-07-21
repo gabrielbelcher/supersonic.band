@@ -24,7 +24,7 @@ export default function Shows() {
                     </div>
                     <div className={styles.showRight}>
                         {show.active && 
-                            <a href="/">GET TICKETS</a>
+                            <a target='_blank' href={show.url}>GET TICKETS</a>
                         }
                     </div>
 
